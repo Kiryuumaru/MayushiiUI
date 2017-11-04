@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MayushiiUI;
 
 namespace MayushiiUI_Demo
 {
     static class Program
     {
+        #region MainEntury
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -19,5 +20,19 @@ namespace MayushiiUI_Demo
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+
+        #endregion
+
+        #region Properties
+
+
+
+        #endregion
+
+        #region Threads
+
+
+
+        #endregion
     }
 }

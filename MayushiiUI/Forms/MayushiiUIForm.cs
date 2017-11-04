@@ -7,19 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MayushiiUI.Forms;
 
-namespace MayushiiUI_Demo
+namespace MayushiiUI.Forms
 {
-    public partial class Form1 : MayushiiUIForm
+    public partial class MayushiiUIForm : Form
     {
         #region Constructor
 
-        public Form1()
+        public MayushiiUIForm()
         {
             InitializeComponent();
-            ReInitializeComponent();
-            UpdateComponent();
         }
 
         #endregion
@@ -32,15 +29,7 @@ namespace MayushiiUI_Demo
 
         #region Threads
 
-        public void ReInitializeComponent()
-        {
 
-        }
-
-        public void UpdateComponent()
-        {
-
-        }
 
         #endregion
 
